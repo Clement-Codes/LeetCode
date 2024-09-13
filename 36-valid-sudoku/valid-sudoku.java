@@ -26,13 +26,6 @@ class Solution {
                 int key = (i/3)*10 + (j/3);
                 if(board[i][j] == '.') continue;
                 if( validRow.get(i).contains(board[i][j]) ||  validCol.get(j).contains(board[i][j]) || validBox.get(key).contains(board[i][j])){
-                    System.out.println(validRow.get(i).contains(board[i][j]));
-                    System.out.println(validCol.get(j).contains(board[i][j]));
-                    System.out.println(validBox.get(key).contains(board[i][j]));
-                    System.out.println(validBox.get(0));
-                    System.out.println(validBox.get(1));
-                    System.out.println(board[i][j]);
-                    System.out.println(key);
                     return false;
                 } 
                 validRow.get(i).add(board[i][j]);
