@@ -9,5 +9,4 @@ class Solution:
         for i in range(len(nums) - 1, -1, -1):
             product[i] *= postfix
             postfix *= nums[i]
-        print(product)
         return product 
