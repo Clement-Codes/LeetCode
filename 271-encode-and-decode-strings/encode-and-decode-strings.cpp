@@ -7,7 +7,6 @@ public:
         for(string s: strs){
             encoded += to_string(s.length()) + '#' + s; 
         }
-        cout << encoded;
         return encoded;
     }
 
