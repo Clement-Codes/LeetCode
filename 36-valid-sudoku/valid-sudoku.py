@@ -7,7 +7,7 @@ class Solution:
             for j in range(len(board)):
                 if board[i][j] == '.':
                     continue
-                elif board[i][j] in valid_row[i] or board[i][j] in valid_col[j] or board[i][j] in valid_box[(i//3,j//3)]:
+                if board[i][j] in valid_row[i] or board[i][j] in valid_col[j] or board[i][j] in valid_box[(i//3,j//3)]:
                     return False
                 valid_row[i].add(board[i][j]) 
                 valid_col[j].add(board[i][j])
