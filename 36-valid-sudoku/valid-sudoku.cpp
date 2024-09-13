@@ -29,11 +29,6 @@ public:
                 validBox[key].insert(board[i][j]);
             }
         }
-        for(set<char> i: validRow){
-            for(char j: i){
-                
-            }
-        }
         return true;
     }
 };
