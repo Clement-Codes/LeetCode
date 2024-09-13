@@ -4,7 +4,7 @@ public class Codec {
     public String encode(List<String> strs) {
         String encoded = "";
         for(String s: strs){
-            encoded += Integer.valueOf(s.length()) + "#" + s;
+            encoded += s.length() + "#" + s;
         }
         return encoded;
     }
