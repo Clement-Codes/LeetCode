@@ -22,7 +22,6 @@ public:
             }
             string in = s.substr(i, j-i);
             int index = stoi(in);
-            cout<<in;
             decoded.push_back(s.substr(j+1, index));
             i = j+1+index;
         }
