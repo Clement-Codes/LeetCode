@@ -7,9 +7,7 @@ public:
         for(int num: numsSet){
             if(numsSet.find(num - 1) == numsSet.end()){
                 int length = 1;
-                while(numsSet.find(num + length) != numsSet.end()){
-                    length += 1;
-                }
+                while(numsSet.find(num + length) != numsSet.end())length += 1;
                 result = max(result, length);
             }
         }
