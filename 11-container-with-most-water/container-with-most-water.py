@@ -5,8 +5,8 @@ class Solution:
         j = len(height) - 1
         while i < j:
             result = max(result, (j - i) * min(height[i], height[j]))
-            if height[i] < height[j]:
-                i += 1
-            else:
+            if height[i] > height[j]:
                 j -= 1
+            else:
+                i += 1
         return result
