@@ -10,12 +10,9 @@ public:
     
 public:
 void backTracking(int o, int c, int n){
-        cout << o <<" " << c << "\n";
         if(o == c && c == n){
-
             stack<char> temp = s;
             string temp1;
-
             while(!temp.empty()){
                 temp1 = temp.top() + temp1;
                 temp.pop();
