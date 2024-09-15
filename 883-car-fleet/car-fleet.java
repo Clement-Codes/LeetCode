@@ -15,7 +15,6 @@ class Solution {
 
         for(int car[]: cars){
             double p = (target - car[0])/(double)car[1];
-            System.out.println(p);
             if (s.size()>0 && p<=s.peek()){
                 continue;
             }
