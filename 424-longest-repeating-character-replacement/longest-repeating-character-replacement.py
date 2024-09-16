@@ -6,7 +6,8 @@ class Solution:
         result = 0
         for r in range(len(s)):
             dictionary[s[r]] = 1 + dictionary.get(s[r], 0)
-            while (r - l + 1) - max(dictionary.values()) > k:
+            mostFrequent = max(mostFrequent, dictionary[s[r]])
+            while (r - l + 1) - mostFrequent > k:
                 dictionary[s[l]] -=1
                 l += 1
             print(l, r)
