@@ -24,7 +24,6 @@ public:
             int BL = bm >= 0 ? b[bm] : INT_MIN;
             int BR = bm + 1 < b.size() ? b[bm + 1] : INT_MAX;
 
-            cout << al <<" "<< ar <<" "<< am <<" "<< bm <<" "<< AL <<" "<< AR <<" "<< BL <<" "<< BR <<" "<<"\n";
             if (AL <= BR && BL <= AR){
                 if (floor((a.size() + b.size()) % 2) != 0){
                     return min(AR, BR);
