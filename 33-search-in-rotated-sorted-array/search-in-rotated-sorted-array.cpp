@@ -9,11 +9,11 @@ public:
             if (target == nums[m]) return m;
 
             if (nums[l] <= nums[m]){
-                if (target>nums[m] or target < nums[l]) l += 1;
+                if (target>nums[m] || target < nums[l]) l += 1;
                 else r -= 1;
             }
             else{
-                if (target < nums[m] or target > nums[r]) r -= 1;
+                if (target < nums[m] || target > nums[r]) r -= 1;
                 else l +=1;
 
             }
