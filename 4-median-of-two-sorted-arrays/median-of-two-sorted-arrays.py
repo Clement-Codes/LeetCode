@@ -16,7 +16,6 @@ class Solution:
 
             BL = B[bm] if bm >= 0 else float("-infinity")
             BR = B[bm + 1] if (bm + 1)<len(B) else float("infinity")
-
             if AL <= BR and BL <= AR:
                 if (len(A) + len(B)) % 2: return min(AR, BR)
                 else: return (max(AL, BL) + min(AR, BR))/2
