@@ -5,12 +5,9 @@ class Node():
         self.prev = None
         self.next = None
 
-class LRUCache(object):
+class LRUCache:
 
-    def __init__(self, capacity):
-        """
-        :type capacity: int
-        """
+    def __init__(self, capacity: int):
         self.capacity = capacity
         self.left = Node(0,0)
         self.right = Node(0,0)
@@ -60,8 +57,6 @@ class LRUCache(object):
         if len(self.store)  > self.capacity:
             del self.store[self.left.next.key]
             self.remove(self.left.next)
-
-
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
