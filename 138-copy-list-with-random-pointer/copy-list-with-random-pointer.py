@@ -21,5 +21,4 @@ class Solution:
             old[cur].random = old[cur.random]
             cur = cur.next
 
-        cur = head
-        return old[cur]
+        return old[head]
