@@ -18,7 +18,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 class Solution {
-    // BFS recursive
+    // DFS recursive
     // public int maxDepth(TreeNode root) {
     //     if (root == null) return 0;
     //     return (1 + Math.max(maxDepth(root.left), maxDepth(root.right)));
