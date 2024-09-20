@@ -10,26 +10,26 @@ class Solution:
 
         while True:
             kth = self.getKthNode(tail, k)
-            
             if not kth: break
-            groupNext = kth.next
+
+            nextGroup = kth.next
             prev = kth.next
             curr = tail.next
-            while curr != groupNext:
+            
+            while curr != nextGroup:
                 temp = curr.next
                 curr.next = prev
                 prev = curr
                 curr = temp
             
             temp = tail.next
-            tail.next = kth
+            tail.next = prev
             tail = temp
+
         return dummy.next
-    
+
     def getKthNode(self, node: Optional[ListNode], k: int) -> Optional[ListNode]:
-
-        while node and k>0:
-            k -= 1
+        while node and k:
             node = node.next
-
-        return node 
+            k -= 1
+        return node
