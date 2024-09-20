@@ -13,44 +13,39 @@
  *     }
  * }
  */
+import java.util.Stack;
+import java.util.Queue;
+import java.util.LinkedList;
+
 class Solution {
-    public int maxDepth(TreeNode root) {
-        if (root == null) return 0;
-        return (1 + Math.max(maxDepth(root.left), maxDepth(root.right)));
-    }
-
-
     // BFS recursive
-    // int maxDepth(TreeNode* root) {
-    //     if (!root) return 0;
-    //     return (1 + max(maxDepth(root->left), maxDepth(root->right)));
+    // public int maxDepth(TreeNode root) {
+    //     if (root == null) return 0;
+    //     return (1 + Math.max(maxDepth(root.left), maxDepth(root.right)));
     // }
 
     // BFS iterative
-    // int maxDepth(TreeNode* root) {
-    //     if (!root) return 0;
-    //     queue<TreeNode*> q;
-    //     q.push(root);
-    //     int result = 0;
-    //     while(q.size()){
-    //         cout << q.size() <<": ";
-    //         int len = q.size();
-    //         for(int i = 0; i<len;i++){
-    //             TreeNode* temp = q.front();
-    //             cout << temp->val << ", " ;
-    //             q.pop();
-    //             if (temp->left){
-    //                 q.push(temp->left);
-    //             }
-    //             if (temp->right){
-    //                 q.push(temp->right);
-    //             }
-    //         }
-    //         cout<<"\n";
-    //         result += 1;
-    //     }
-    //     return result;
-    // }
+    public int maxDepth(TreeNode root) {
+        if (root == null) return 0;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int result = 0;
+        while(q.size() > 0){
+            int len = q.size();
+            for(int i = 0; i<len;i++){
+                TreeNode temp = q.peek();
+                q.remove();
+                if (temp.left != null){
+                    q.add(temp.left);
+                }
+                if (temp.right  != null){
+                    q.add(temp.right);
+                }
+            }
+            result += 1;
+        }
+        return result;
+    }
 
     // DFS iterative
     // int maxDepth(TreeNode* root) {
