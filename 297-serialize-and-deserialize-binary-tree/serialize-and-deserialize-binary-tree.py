@@ -20,10 +20,11 @@ class Codec:
 
         if not root: 
             self.serializeResult.append('N')
-        else:
-            self.serializeResult.append(str(root.val))
-            self.serializeDFS(root.left)
-            self.serializeDFS(root.right)
+            return
+        
+        self.serializeResult.append(str(root.val))
+        self.serializeDFS(root.left)
+        self.serializeDFS(root.right)
 
 
 
@@ -34,17 +35,17 @@ class Codec:
         :rtype: TreeNode
         """
         self.i = 0
-        return self.deserializeDFS(data)
+        self.d = data.split(',')
+        return self.deserializeDFS()
 
-    def deserializeDFS(self, data):
-        d = data.split(',')
-        if d[self.i] == 'N':
+    def deserializeDFS(self):
+        if self.d[self.i] == 'N':
             self.i += 1
             return None
-        node = TreeNode(int(d[self.i]))
+        node = TreeNode(int(self.d[self.i]))
         self.i += 1
-        node.left = self.deserializeDFS(data)
-        node.right = self.deserializeDFS(data)
+        node.left = self.deserializeDFS()
+        node.right = self.deserializeDFS()
         return node
 
 # Your Codec object will be instantiated and called as such:
