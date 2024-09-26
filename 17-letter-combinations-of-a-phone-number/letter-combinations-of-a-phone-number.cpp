@@ -1,7 +1,6 @@
 class Solution {
 public:
     void backtracking(int index,string curr, vector<string>& result, string digits, unordered_map<char, vector<char>> numberToLetter){
-        cout<<curr<<"\n";
         if(curr.length() == digits.length()){
             result.push_back(curr);
             return;
