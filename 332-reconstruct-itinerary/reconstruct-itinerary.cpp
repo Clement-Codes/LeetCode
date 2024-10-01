@@ -27,7 +27,6 @@ public:
         dfs(mapper, result, "JFK");
 
         reverse(result.begin(), result.end());
-        return result;
         return result.size() == tickets.size() + 1 ? result : vector<string>(); 
 
     }
