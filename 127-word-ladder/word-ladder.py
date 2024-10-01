@@ -6,9 +6,7 @@ class Solution:
         wordList.append(beginWord)
         for word in wordList:
             for i in range(len(word)):
-                temp = mapper.get(word[:i] + "*" + word[i+1:],[])
-                temp.append(word)
-                mapper[word[:i] + "*" + word[i+1:]]=temp
+                mapper[word[:i] + "*" + word[i+1:]].append(word)
         
         q = deque([beginWord])
         visited = set([beginWord])
