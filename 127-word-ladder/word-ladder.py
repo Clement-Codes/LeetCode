@@ -16,10 +16,9 @@ class Solution:
                 temp = q.popleft()
                 if temp == endWord: return r
                 for i in range(len(temp)):
-                    if temp[:i] + "*" + temp[i+1:] in mapper:
-                        for new in mapper[temp[:i] + "*" + temp[i+1:]]:
-                            if new not in visited:
-                                q.append(new)
-                                visited.add(new)
+                    for new in mapper[temp[:i] + "*" + temp[i+1:]]:
+                        if new not in visited:
+                            q.append(new)
+                            visited.add(new)
             r += 1
         return 0
