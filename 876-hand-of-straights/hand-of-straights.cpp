@@ -16,7 +16,6 @@ public:
             int mini = q.top();
             for (int i = mini; i < mini + groupSize; i++){
                 if (!cache.contains(i)){
-                    cout << 1;
                     return false;
                 }
                 cache[i] -= 1;
