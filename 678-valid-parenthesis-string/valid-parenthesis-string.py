@@ -5,10 +5,10 @@ class Solution:
             if i == '(':
                 leftmin += 1
                 leftmax += 1
-            if i == ')':
+            elif i == ')':
                 leftmin -= 1
                 leftmax -= 1
-            if i == '*':
+            else:
                 leftmin -= 1
                 leftmax += 1
             if leftmax < 0:
