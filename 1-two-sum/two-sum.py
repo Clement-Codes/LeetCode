@@ -6,10 +6,4 @@ class Solution:
             if diff in cache:
                 return [cache[diff], i]
             cache[n] = i
-        
-        # result = {}
-        # for i, j in enumerate(nums):
-        #     if (target - j) in result:
-        #         return [result[target - j], i]
-        #     else:
-        #         result[j] = i 
+
