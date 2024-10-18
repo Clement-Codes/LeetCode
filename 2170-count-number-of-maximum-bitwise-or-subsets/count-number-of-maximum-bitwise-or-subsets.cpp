@@ -40,22 +40,40 @@ public:
     // }
 
     // Memoization
-    int dfs(int index, int curresult, vector<int>& nums, int& max_or, unordered_map<string, int> cache){
-        string key = to_string(index) + "_" + to_string(curresult);
-        if (cache.contains(key)) return cache[key];
-        if (index == nums.size())
-        {
-            return curresult == max_or ? 1 : 0 ;
-        }
-        cache[key] = dfs(index + 1, curresult, nums, max_or, cache) + dfs(index + 1, curresult | nums[index], nums, max_or, cache);
-        return cache[key];
-    }
+    // int dfs(int index, int curresult, vector<int>& nums, int& max_or, unordered_map<string, int> cache){
+    //     string key = to_string(index) + "_" + to_string(curresult);
+    //     if (cache.contains(key)) return cache[key];
+    //     if (index == nums.size())
+    //     {
+    //         return curresult == max_or ? 1 : 0 ;
+    //     }
+    //     cache[key] = dfs(index + 1, curresult, nums, max_or, cache) + dfs(index + 1, curresult | nums[index], nums, max_or, cache);
+    //     return cache[key];
+    // }
 
+    // int countMaxOrSubsets(vector<int>& nums) {
+    //     int max_or = 0;
+    //     for(int i: nums)
+    //         max_or |= i;
+    //     unordered_map<string, int> cache;
+    //     return dfs(0, 0, nums, max_or, cache);
+    // }
+
+    //Bottom Up
     int countMaxOrSubsets(vector<int>& nums) {
         int max_or = 0;
         for(int i: nums)
             max_or |= i;
-        unordered_map<string, int> cache;
-        return dfs(0, 0, nums, max_or, cache);
+        unordered_map<int, int> cache;
+        cache[0] = 1;
+        for (int i: nums){
+            unordered_map<int, int> temp;
+            temp.insert(cache.begin(), cache.end());
+            for (pair<int, int> j: cache){
+                temp[i | j.first] += j.second;
+            }
+            cache = temp;
+        }
+        return cache[max_or];
     }
 };
