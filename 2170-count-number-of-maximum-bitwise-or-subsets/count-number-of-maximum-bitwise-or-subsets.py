@@ -48,12 +48,10 @@ class Solution:
         cache = {}
         cache[0] = 1
         i = 0
-        while True:
-            if i == len(nums):
-                break
+        for i in nums:
             clone = deepcopy(cache)
             for j in cache.keys():
-                clone[j | nums[i]] = clone.get(j | nums[i], 0) + cache[j]
+                clone[j | i] = clone.get(j | i, 0) + cache[j]
             cache = clone
             i += 1
         return cache[max_or]
