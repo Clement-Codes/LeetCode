@@ -60,20 +60,40 @@ public:
     // }
 
     //Bottom Up
+    // int countMaxOrSubsets(vector<int>& nums) {
+    //     int max_or = 0;
+    //     for(int i: nums)
+    //         max_or |= i;
+    //     unordered_map<int, int> cache;
+    //     cache[0] = 1;
+    //     for (int i: nums){
+    //         unordered_map<int, int> temp;
+    //         temp.insert(cache.begin(), cache.end());
+    //         for (pair<int, int> j: cache){
+    //             temp[i | j.first] += j.second;
+    //         }
+    //         cache = temp;
+    //     }
+    //     return cache[max_or];
+    // }
+    
+    // BitMap
     int countMaxOrSubsets(vector<int>& nums) {
         int max_or = 0;
         for(int i: nums)
             max_or |= i;
-        unordered_map<int, int> cache;
-        cache[0] = 1;
-        for (int i: nums){
-            unordered_map<int, int> temp;
-            temp.insert(cache.begin(), cache.end());
-            for (pair<int, int> j: cache){
-                temp[i | j.first] += j.second;
+        
+        int result = 0;
+        for (int i = 1; i < pow(2, nums.size()); i++){
+            int curr = 0;
+            for (int j = 0; j < nums.size(); j++){
+                if ((1 << j) & i){
+                    curr |= nums[j];
+                }
             }
-            cache = temp;
+            result += curr == max_or ? 1 : 0;
         }
-        return cache[max_or];
+        return result;
     }
+
 };
