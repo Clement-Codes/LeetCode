@@ -42,16 +42,30 @@ class Solution:
         # return dfs(0, 0) 
 
         #bottom-up
+        # max_or = 0
+        # for i in nums:
+        #     max_or |= i
+        # cache = {}
+        # cache[0] = 1
+        # i = 0
+        # for i in nums:
+        #     clone = deepcopy(cache)
+        #     for j in cache.keys():
+        #         clone[j | i] = clone.get(j | i, 0) + cache[j]
+        #     cache = clone
+        #     i += 1
+        # return cache[max_or]
+
+        #Bitmap
         max_or = 0
         for i in nums:
             max_or |= i
-        cache = {}
-        cache[0] = 1
-        i = 0
-        for i in nums:
-            clone = deepcopy(cache)
-            for j in cache.keys():
-                clone[j | i] = clone.get(j | i, 0) + cache[j]
-            cache = clone
-            i += 1
-        return cache[max_or]
+        result = 0
+        for i in range(1, 2 ** len(nums)):
+            curr = 0
+            for j in range(len(nums)):
+                if (1 << j) & i:
+                    curr |= nums[j]
+            result += 1 if curr == max_or else 0
+
+        return result
