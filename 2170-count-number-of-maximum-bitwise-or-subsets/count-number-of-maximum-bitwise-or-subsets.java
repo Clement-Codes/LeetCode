@@ -55,19 +55,38 @@ class Solution {
     // }
 
     //Bottom up
+    // public int countMaxOrSubsets(int[] nums) {
+    //     int max_or = 0;
+    //     for (int i: nums)
+    //         max_or |= i;
+    //     HashMap<Integer, Integer> cache = new HashMap<Integer, Integer>();
+    //     cache.put(0, 1);
+    //     for(int num: nums){
+    //         HashMap<Integer, Integer> temp = new HashMap<Integer, Integer>(cache);
+    //         for(Map.Entry<Integer, Integer> j: cache.entrySet()){
+    //             temp.put(num | j.getKey(), temp.getOrDefault(num | j.getKey(), 0) + j.getValue());
+    //         }
+    //         cache = temp;
+    //     }
+    //     return cache.get(max_or);
+    // }
+    
+    //Bitmap
     public int countMaxOrSubsets(int[] nums) {
         int max_or = 0;
         for (int i: nums)
             max_or |= i;
-        HashMap<Integer, Integer> cache = new HashMap<Integer, Integer>();
-        cache.put(0, 1);
-        for(int num: nums){
-            HashMap<Integer, Integer> temp = new HashMap<Integer, Integer>(cache);
-            for(Map.Entry<Integer, Integer> j: cache.entrySet()){
-                temp.put(num | j.getKey(), temp.getOrDefault(num | j.getKey(), 0) + j.getValue());
+        int result = 0;
+        for (int i = 1; i < Math.pow(2, nums.length); i++){
+            int curr = 0;
+            for (int j = 0; j < nums.length; j++){
+                if (((1 << j) & i) > 0){
+                    curr |= nums[j];
+                }
             }
-            cache = temp;
+            result += curr == max_or ? 1 : 0;
         }
-        return cache.get(max_or);
+        return result;
     }
 }
+                
