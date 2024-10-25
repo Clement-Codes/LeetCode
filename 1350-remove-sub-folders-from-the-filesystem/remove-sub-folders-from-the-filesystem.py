@@ -1,36 +1,66 @@
 class Trie:
     def __init__(self):
-        self.childrens = {}
-        self.end = False
+        self.children = {}
+        self.endOfWord = False
+    
+    def add(self, word):
+        curr = self
+        for i in word.split('/'):
+            if i not in curr.children:
+                curr.children[i] = Trie()
+            curr = curr.children[i]
+        curr.endOfWord = True
+
+    def prefixSearch(self, word):
+        curr = self
+        for i in word.split('/')[:-1]:
+            curr = curr.children[i]
+            if curr.endOfWord:
+                return True
+        return False
 
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
-        cache = Trie()
+        curr = Trie()
+
         result = []
-
-        for f in folder:
-            temp = cache
-            for d in f[1:].split('/'):
-                if d not in temp.childrens:
-                    temp.childrens[d] = Trie() 
-                temp = temp.childrens[d] 
-            temp.end = True
+        for i in folder:
+            curr.add(i)
         
-        
-
-        stack = [(cache, "")]
-        while stack:
-            temp1, temp2 = stack.pop(0)
-            if temp1.end:
-                result.append(temp2)
+        for i in folder:
+            if  curr.prefixSearch(i):
                 continue
-            for i, j in temp1.childrens.items():
-                stack.append((j, temp2+'/'+i))
+            result.append(i)
+
+        return result
+
+
+        # cache = Trie()
+        # result = []
+
+        # for f in folder:
+        #     temp = cache
+        #     for d in f[1:].split('/'):
+        #         if d not in temp.childrens:
+        #             temp.childrens[d] = Trie() 
+        #         temp = temp.childrens[d] 
+        #     temp.end = True
+        
+        
+
+        # stack = [(cache, "")]
+        # while stack:
+        #     temp1, temp2 = stack.pop(0)
+        #     if temp1.end:
+        #         result.append(temp2)
+        #         continue
+        #     for i, j in temp1.childrens.items():
+        #         stack.append((j, temp2+'/'+i))
 
 
             
 
-        return result
+        # return result
 
         # cache = set(folder)
         # result = []
