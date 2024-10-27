@@ -7,10 +7,12 @@ class Solution:
         result = 0
 
         for r in range(ROW):
+            cache2 = defaultdict(int)
             for c in range(COL):
                 if matrix[r][c]:    
-                    cache[(r, c)] = 1  + min(cache[(r - 1, c)], cache[(r, c - 1)], cache[(r - 1, c - 1)])
-                    result += cache[(r, c)]
+                    cache2[c] = 1  + min(cache[c], cache2[c - 1], cache[c - 1])
+                    result += cache2[c]
+            cache = cache2
         return result 
 
         
