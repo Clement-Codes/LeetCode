@@ -1,20 +1,43 @@
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
-        ROW, COL, result, memo = len(matrix), len(matrix[0]), 0, {}
 
+        #bottom first
+        ROW, COL = len(matrix), len(matrix[0])
+        cache = defaultdict(int)
+        result = 0
 
-        def dfs(r, c):
-            if (r, c) in memo: return memo[(r, c)]
-            if r == ROW or c == COL or not matrix[r][c]:
-                return 0
-            memo[(r, c)] = 1 + min(dfs(r + 1, c), dfs(r, c + 1), dfs(r + 1, c + 1))
-            return memo[(r, c)]
-            
         for r in range(ROW):
             for c in range(COL):
-                result += dfs(r, c)
+                if matrix[r][c]:    
+                    cache[(r, c)] = 1  + min(cache[(r - 1, c)], cache[(r, c - 1)], cache[(r - 1, c - 1)])
+                    result += cache[(r, c)]
+        return result 
 
-        return result
+        
+
+
+
+
+        # dfs
+        # ROW, COL, result, memo = len(matrix), len(matrix[0]), 0, {}
+
+
+        # def dfs(r, c):
+        #     if (r, c) in memo: return memo[(r, c)]
+        #     if r == ROW or c == COL or not matrix[r][c]:
+        #         return 0
+        #     memo[(r, c)] = 1 + min(dfs(r + 1, c), dfs(r, c + 1), dfs(r + 1, c + 1))
+        #     return memo[(r, c)]
+
+        # for r in range(ROW):
+        #     for c in range(COL):
+        #         result += dfs(r, c)
+
+        # return result
+
+
+
+        #Bottom-Up
         # ROW = len(matrix)
         # COL = len(matrix[0])
         # memo = defaultdict(int)
