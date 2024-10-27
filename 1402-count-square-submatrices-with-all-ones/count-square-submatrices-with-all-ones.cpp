@@ -1,18 +1,36 @@
 class Solution {
 public:
+    //bottom - 2 ROW
     int countSquares(vector<vector<int>>& matrix) {
         int ROW = matrix.size(), COL = matrix[0].size(), result = 0;
-        unordered_map<string, int> memo;
-        for (int r = 0; r < ROW; r++)
+        unordered_map<int, int> memo1;
+
+        for (int r = 0; r < ROW; r++){
+            unordered_map<int, int> memo2;
             for (int c = 0; c < COL; c++){
-                if (matrix[r][c] != 0){
-                    memo[to_string(r) + "_" + to_string(c)] = 1 + min(memo[to_string(r - 1) + "_" + to_string(c)],
-                    min(memo[to_string(r) + "_" + to_string(c - 1)], memo[to_string(r - 1) + "_" + to_string(c - 1)]));
-                    result +=  memo[to_string(r) + "_" + to_string(c)];
-                }                
+                if (matrix[r][c] == 1){
+                    memo2[c] = 1 + min(memo1[c], min(memo2[c - 1], memo1[c - 1]));
+                    result += memo2[c];
+                }
             }
+            memo1 = memo2;
+        }
         return result;
     }
+    // bottom
+    // int countSquares(vector<vector<int>>& matrix) {
+    //     int ROW = matrix.size(), COL = matrix[0].size(), result = 0;
+    //     unordered_map<string, int> memo;
+    //     for (int r = 0; r < ROW; r++)
+    //         for (int c = 0; c < COL; c++){
+    //             if (matrix[r][c] != 0){
+    //                 memo[to_string(r) + "_" + to_string(c)] = 1 + min(memo[to_string(r - 1) + "_" + to_string(c)],
+    //                 min(memo[to_string(r) + "_" + to_string(c - 1)], memo[to_string(r - 1) + "_" + to_string(c - 1)]));
+    //                 result +=  memo[to_string(r) + "_" + to_string(c)];
+    //             }                
+    //         }
+    //     return result;
+    // }
 
 
     // dfs
