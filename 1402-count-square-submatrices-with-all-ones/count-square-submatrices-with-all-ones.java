@@ -1,21 +1,45 @@
 class Solution {
+    //bottom - 2 ROW
     public int countSquares(int[][] matrix) {
         int ROW = matrix.length, COL = matrix[0].length, result = 0;
-        HashMap<String, Integer> memo = new HashMap<String, Integer>();
-        for (int r = 0; r < ROW; r++)
+        HashMap<Integer, Integer> memo1 = new HashMap<Integer, Integer>();
+        for (int c = 0; c < COL; c++){
+            memo1.put(c, 0);
+        }
+        for (int r = 0; r < ROW; r++){
+            HashMap<Integer, Integer> memo2 = new HashMap<Integer, Integer>();
             for (int c = 0; c < COL; c++){
-                if (r > 0 && c > 0 && matrix[r][c] != 0){
-                    memo.put(String.valueOf(r) + "_" + String.valueOf(c), 1 + Math.min(memo.get(String.valueOf(r - 1) + "_" + String.valueOf(c)),
-                    Math.min(memo.get(String.valueOf(r) + "_" + String.valueOf(c - 1)), memo.get(String.valueOf(r - 1) + "_" + String.valueOf(c - 1)))));
-                    result +=  memo.get(String.valueOf(r) + "_" + String.valueOf(c));
+                if (c > 0 && matrix[r][c] == 1){
+                    memo2.put(c, 1 + Math.min(memo1.get(c), Math.min(memo2.get(c - 1), memo1.get(c - 1))));
+                    result += memo2.get(c);
                 }
                 else{
-                    memo.put(String.valueOf(r) + "_" + String.valueOf(c), matrix[r][c]);
-                    result += matrix[r][c];
-                }             
+                    memo2.put(c, matrix[r][c]);
+                    result += memo2.get(c);
+                }
             }
+            memo1 = memo2;
+        }
         return result;
     }
+    // bottom up
+    // public int countSquares(int[][] matrix) {
+    //     int ROW = matrix.length, COL = matrix[0].length, result = 0;
+    //     HashMap<String, Integer> memo = new HashMap<String, Integer>();
+    //     for (int r = 0; r < ROW; r++)
+    //         for (int c = 0; c < COL; c++){
+    //             if (r > 0 && c > 0 && matrix[r][c] != 0){
+    //                 memo.put(String.valueOf(r) + "_" + String.valueOf(c), 1 + Math.min(memo.get(String.valueOf(r - 1) + "_" + String.valueOf(c)),
+    //                 Math.min(memo.get(String.valueOf(r) + "_" + String.valueOf(c - 1)), memo.get(String.valueOf(r - 1) + "_" + String.valueOf(c - 1)))));
+    //                 result +=  memo.get(String.valueOf(r) + "_" + String.valueOf(c));
+    //             }
+    //             else{
+    //                 memo.put(String.valueOf(r) + "_" + String.valueOf(c), matrix[r][c]);
+    //                 result += matrix[r][c];
+    //             }             
+    //         }
+    //     return result;
+    // }
     // dfs
     // int ROW = 0, COL = 0;
 
