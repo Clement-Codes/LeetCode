@@ -1,20 +1,18 @@
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
-        ROW = len(matrix)
-        COL = len(matrix[0])
-        memo = {}
+        ROW, COL, result, memo = len(matrix), len(matrix[0]), 0, {}
 
-        def dfs(i, j):
-            if (i, j) in memo: return memo[(i, j)]
-            if i == ROW or j == COL or not matrix[i][j]:
+
+        def dfs(r, c):
+            if (r, c) in memo: return memo[(r, c)]
+            if r == ROW or c == COL or not matrix[r][c]:
                 return 0
-            memo[(i, j)] = 1 + min(dfs(i + 1, j), dfs(i, j + 1), dfs(i + 1, j + 1))
-            return memo[(i, j)]
+            memo[(r, c)] = 1 + min(dfs(r + 1, c), dfs(r, c + 1), dfs(r + 1, c + 1))
+            return memo[(r, c)]
             
-        result = 0
-        for i in range(ROW):
-            for j in range(COL):
-                result += dfs(i, j)
+        for r in range(ROW):
+            for c in range(COL):
+                result += dfs(r, c)
 
         return result
         # ROW = len(matrix)
