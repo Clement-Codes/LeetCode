@@ -1,13 +1,27 @@
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:
-        nums.sort()
+        nums = set(nums)
         res = -1
-        memo = defaultdict(int)
         for i in nums:
-            memo[i] = memo[sqrt(i)] + 1
+            if sqrt(i) in nums:
+                continue
+            else:
+                j = 1
+                while i * i  in nums:
+                    j += 1
+                    i *= i
+                res = max(res, j)
 
-            res = max(res, memo[i])
         return res if res > 1 else - 1
+        # Sorting 0(nlog(n))
+        # nums.sort()
+        # res = -1
+        # memo = defaultdict(int)
+        # for i in nums:
+        #     memo[i] = memo[sqrt(i)] + 1
+
+        #     res = max(res, memo[i])
+        # return res if res > 1 else - 1
 
 
 
