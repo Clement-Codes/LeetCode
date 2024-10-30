@@ -17,7 +17,7 @@ class Solution:
 
         result = N
         for i in range(1, N-1):
-            if pos[i] == 1 or pre[i] == 1: continue
-            result = min(result, N - pos[i] - pre[i] + 1)
+            if min(pos[i], pre[i]) != 1:
+                result = min(result, N - pos[i] - pre[i] + 1)
 
         return result
