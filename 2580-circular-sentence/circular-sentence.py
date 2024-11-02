@@ -1,11 +1,10 @@
 class Solution:
     def isCircularSentence(self, sentence: str) -> bool:
-        l = 0
-        r = 0
+        if sentence[0] != sentence[-1]: return False
         for i in range(len(sentence)):
             if sentence[i] == " " and sentence[i-1] != sentence[i + 1]:
                     return False
-        return True if sentence[0] == sentence[-1] else False
+        return True 
         
         # l = 0
         # r = 1
