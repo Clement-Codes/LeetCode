@@ -1,9 +1,17 @@
 class Solution:
     def isCircularSentence(self, sentence: str) -> bool:
-        for i in range(len(sentence)):
-            if sentence[i] == " " and sentence[i - 1] != sentence[i + 1]:
+        sentences =sentence.split(" ")
+        i = 0
+        while i < len(sentences):
+            if sentences[i][0] != sentences[i - 1][-1]:
                 return False
-        return sentence[0] == sentence[-1]
+            i += 1
+        return True
+        # O(N)
+        # for i in range(len(sentence)):
+        #     if sentence[i] == " " and sentence[i - 1] != sentence[i + 1]:
+        #         return False
+        # return sentence[0] == sentence[-1]
 
 
 
