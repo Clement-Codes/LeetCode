@@ -1,9 +1,7 @@
 class Solution:
     def minChanges(self, s: str) -> int:
-        i = 0
         result = 0
-        while i < len(s):
+        for i in range(0, len(s), 2):
             if s[i] != s[i + 1]:
                 result += 1
-            i += 2
         return result
