@@ -5,7 +5,7 @@ public:
         for (int i = 0; i < 32; i++){
             int count = 0;
             for (int n: candidates){
-                count += (1 << i & n) ? 1: 0;
+                count += (1 << i & n) > 0 ? 1: 0;
             }
             result = max(result, count);
         }
