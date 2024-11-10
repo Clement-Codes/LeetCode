@@ -21,7 +21,6 @@ class Solution:
         for r in range(len(nums)):
             bitOperation(bits, nums[r], 1)
             curr = getInteger(bits)
-            print(curr, r)
             while curr >= k and l <= r:
                 result = min(result, r - l + 1)
                 bitOperation(bits, nums[l], -1)
