@@ -7,12 +7,18 @@ class Solution:
             return True
 
         prev = 0
-        
+        primes = [False, False]
+        for i in range(2, max(nums)):
+            if isPrime(i):
+                primes.append(True)
+            else:
+                primes.append(False)
+
         for i in range(len(nums)):
             upperbound = nums[i] - prev
             largest_p = 0
             for j in reversed(range(2, upperbound)):
-                if isPrime(j):
+                if primes[j]:
                     largest_p = j
                     break
             if nums[i] - largest_p <= prev:
