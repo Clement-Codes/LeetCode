@@ -33,7 +33,9 @@ class Solution {
             int upperbound = n - prev;
             int largest_prime = 0;
             for (int i = upperbound - 1; i >=2; i--){
-                if (isPrime(i)){
+                // if (isPrime(i)){
+                if (primes.get(i)){
+
                     largest_prime = i;
                     break;
                 }
