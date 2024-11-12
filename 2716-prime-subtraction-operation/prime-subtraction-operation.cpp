@@ -14,29 +14,30 @@ public:
                 res = i;
         return res;
     }
-
     bool primeSubOperation(vector<int>& nums) {
         int prev = 0;
 
-        vector<bool> primes = {false, false};
+        // vector<bool> primes = {false, false};
+        vector<int> primes = {0, 0};
         int maxi = getMax(nums);
         for (int i = 2; i < maxi; i++)
             if (isPrime(i)){
-                primes.push_back(true);
+                primes.push_back(i);
             }
             else{
-                primes.push_back(false);
+                primes.push_back(primes[primes.size() - 1]);
             }
 
         for (int n: nums){
             int upperbound = n - prev;
-            int largest_prime = 0;
-            for (int i = upperbound - 1; i >=2; i--){
-                if (primes[i]){
-                    largest_prime = i;
-                    break;
-                }
-            }
+            cout<< " " << upperbound;
+            int largest_prime = upperbound - 1 >=0 ? primes[upperbound - 1] : primes[primes.size()  + (upperbound - 1)];
+            // for (int i = upperbound - 1; i >=2; i--){
+            //     if (primes[i]){
+            //         largest_prime = i;
+            //         break;
+            //     }
+            // }
             if (n  - largest_prime <= prev)
                 return false;
             prev = n - largest_prime;
