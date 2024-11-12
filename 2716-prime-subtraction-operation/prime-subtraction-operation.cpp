@@ -30,7 +30,6 @@ public:
 
         for (int n: nums){
             int upperbound = n - prev;
-            cout<< " " << upperbound;
             int largest_prime = upperbound - 1 >=0 ? primes[upperbound - 1] : primes[primes.size()  + (upperbound - 1)];
             // for (int i = upperbound - 1; i >=2; i--){
             //     if (primes[i]){
