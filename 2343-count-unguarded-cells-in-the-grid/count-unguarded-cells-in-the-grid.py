@@ -35,7 +35,6 @@ class Solution:
         
         result = 0
         for i in arr:
-            print(i)
             for j in i:
                 if j == 0:
                     result += 1
