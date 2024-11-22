@@ -36,10 +36,57 @@ public:
             arr[guards[i][0]][guards[i][1]] = 2;
         }
         
-        for (int i = 0; i < guards.size(); i++){
-            mark_guarded(guards[i][0], guards[i][1], arr, m, n);
+        // for (int i = 0; i < guards.size(); i++){
+        //     mark_guarded(guards[i][0], guards[i][1], arr, m, n);
+        // }
+
+        for (int i = 0; i < m; i++)
+        {
+            bool guard = false;
+            for (int j = 0; j < n; j++)
+            {
+                if (arr[i][j] == 2)
+                    guard = true;
+                else if (arr[i][j] == 1)
+                    guard = false;
+                if (!arr[i][j] && guard)
+                    arr[i][j] = 3;
+            }
+
+            guard = false;
+            for(int j = n - 1; j > -1; j--){
+                if (arr[i][j] == 2)
+                    guard = true;
+                else if (arr[i][j] == 1)
+                    guard = false;
+                if (!arr[i][j] && guard)
+                    arr[i][j] = 3;
+            }
+
         }
 
+        for (int j = 0; j < n; j++){
+            bool guard = false;
+            for (int i = 0; i < m; i++){
+                if (arr[i][j] == 2)
+                    guard = true;
+                else if (arr[i][j] == 1)
+                    guard = false;
+                if (!arr[i][j] && guard)
+                    arr[i][j] = 3;
+            }
+
+
+            guard = false;
+            for (int i = m - 1; i > -1; i--){
+                if (arr[i][j] == 2)
+                    guard = true;
+                else if (arr[i][j] == 1)
+                    guard = false;
+                if (!arr[i][j] && guard)
+                    arr[i][j] = 3;
+            }
+        }
 
         int result = 0;
 
