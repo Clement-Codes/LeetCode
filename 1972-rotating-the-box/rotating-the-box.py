@@ -1,23 +1,39 @@
 class Solution:
     def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:
+        # Using Inplace
         ROW = len(box)
         COL = len(box[0])
+        result = [['.' for _ in range(ROW)] for _ in range(COL)] 
+
         for r in range(ROW):
             i = COL - 1
             for c in range(COL -1, -1, -1):
                 if box[r][c] == '#':
-                    box[r][c], box[r][i] = box[r][i], box[r][c]
+                    result[i][ROW - r - 1] = '#'
                     i -= 1
                 elif box[r][c] == '*':
+                    result[c][ROW - r - 1] = '*'
                     i = c - 1
-
-        result = []
-        for c in range(COL):
-            temp = []
-            for r in range(ROW - 1, -1, -1):
-                temp.append(box[r][c])
-            result.append(temp)
         return result
+        # Using New Arr
+        # ROW = len(box)
+        # COL = len(box[0])
+        # for r in range(ROW):
+        #     i = COL - 1
+        #     for c in range(COL -1, -1, -1):
+        #         if box[r][c] == '#':
+        #             box[r][c], box[r][i] = box[r][i], box[r][c]
+        #             i -= 1
+        #         elif box[r][c] == '*':
+        #             i = c - 1
+
+        # result = []
+        # for c in range(COL):
+        #     temp = []
+        #     for r in range(ROW - 1, -1, -1):
+        #         temp.append(box[r][c])
+        #     result.append(temp)
+        # return result
 
         #lol it worked
         # box = list(map(list, zip(*box[::-1])))
