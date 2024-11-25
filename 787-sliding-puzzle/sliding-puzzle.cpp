@@ -41,8 +41,6 @@ public:
                 }
             }
         }
-        
-        cout << b;
         return -1;
     }
 };
