@@ -13,11 +13,11 @@ public:
                 j++;
             }
         }
-        // while (i < s.length()){
-        //     ss << s[i];
-        //     i++;
-        // }
-        ss << s.substr(i, s.length());
+        while (i < s.length()){
+            ss << s[i];
+            i++;
+        }
+        //ss << s.substr(i, s.length());
         return ss.str();
     }
 };
