@@ -3,7 +3,6 @@ public:
     bool canChange(string start, string target) {
         int i = 0, j = 0;
         while (i < start.length() || j < target.length()){
-            cout << i << " " << j <<"\n";
             while (start[i] == '_')
                 i++;
             while (target[j] == '_')
