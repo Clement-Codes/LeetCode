@@ -6,10 +6,7 @@ class Solution:
             heapq.heappush(heap, (nums[i],i))
         while k:
             temp = heapq.heappop(heap)
-            heapq.heappush(heap, (temp[0] * multiplier, temp[1]))
+            nums[temp[1]] *= multiplier
+            heapq.heappush(heap, (nums[temp[1]], temp[1]))
             k -= 1
-        result = [0] * n
-        while heap:
-            temp = heapq.heappop(heap)
-            result[temp[1]] = temp[0]
-        return result
+        return nums
