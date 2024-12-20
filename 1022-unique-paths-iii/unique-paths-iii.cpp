@@ -3,7 +3,6 @@ public:
     int result = 0, row = 0, col = 0, coverage = 0;
     vector<vector<int>> directions = {{1,0}, {0,1}, {-1,0}, {0, -1}};
     void dfs(int r, int c, int curr, vector<vector<int>>& grid){
-        cout << r << " " << c << " " << curr << " " << coverage << "\n";
         if (grid[r][c] == -1){
             return;
         }
