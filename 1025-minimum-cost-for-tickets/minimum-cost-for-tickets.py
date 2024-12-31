@@ -4,7 +4,7 @@ class Solution:
             len(days): 0
         }
 
-        def dfs(i):
+        for i in reversed(range(len(days))):
             if i in memo:
                 return memo[i]
 
@@ -13,10 +13,28 @@ class Solution:
                 j = i
                 while j < len(days) and days[j] < days[i] + day:
                     j += 1
-                memo[i] =  min(memo[i], cost + dfs(j))
-            return memo[i]
-            
-        return dfs(0)
+                memo[i] =  min(memo[i], cost + memo[j])
+
+        return memo[0]
+        
+        # top-down
+        # memo = {
+        #     len(days): 0
+        # }
+
+        # def dfs(i):
+        #     if i in memo:
+        #         return memo[i]
+
+        #     memo[i] = float("inf")
+        #     for cost, day in zip(costs, [1, 7, 30]):
+        #         j = i
+        #         while j < len(days) and days[j] < days[i] + day:
+        #             j += 1
+        #         memo[i] =  min(memo[i], cost + dfs(j))
+        #     return memo[i]
+
+        # return dfs(0)
             
                 
 
