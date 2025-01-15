@@ -15,15 +15,14 @@ public:
         int count1 = countBit(num1), count2 = countBit(num2);
         int result = num1;
         int i = 0;
-        unsigned long long temp = 1;
         while (count1 != count2)
         {
             if (count1 > count2 && result & (1 << i)){
                 result = result ^ (1 << i);
                 count1 -= 1;
             }
-            else if (count1 < count2 && (int(result & (temp << i)) == 0)){
-                result = result ^ (temp << i);
+            else if (count1 < count2 && (int(result & (1 << i)) == 0)){
+                result = result ^ (1 << i);
                 count1 += 1;
                 cout << "hey";
             }
