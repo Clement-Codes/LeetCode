@@ -10,10 +10,9 @@ class Solution:
         
         count1, count2 = countBit(num1), countBit(num2)
         result = num1
-        print("yeap")
         i = 0
         while count1 > count2:
-            
+
             if result & (1 << i):
                 result = result ^ (1 << i)
                 count1 -= 1
