@@ -11,16 +11,11 @@ class Solution:
         count1, count2 = countBit(num1), countBit(num2)
         result = num1
         i = 0
-        while count1 > count2:
-
-            if result & (1 << i):
+        while count1 != count2:
+            if count1 > count2 and result & (1 << i):
                 result = result ^ (1 << i)
                 count1 -= 1
-            i += 1
-        
-
-        while count1 < count2:
-            if result & (1 << i) == 0:
+            elif count1 < count2 and result & (1 << i) == 0:
                 result = result ^ (1 << i)
                 count1 += 1
             i += 1
