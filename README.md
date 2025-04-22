@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Clement-Codes/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2050-count-good-numbers](https://github.com/Clement-Codes/LeetCode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Clement-Codes/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2998-count-symmetric-integers](https://github.com/Clement-Codes/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Clement-Codes/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Number Theory
 |  |
 | ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Clement-Codes/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 ## String
 |  |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0416-partition-equal-subset-sum](https://github.com/Clement-Codes/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Clement-Codes/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Shortest Path
 |  |
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Combinatorics
 |  |
 | ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 ## Recursion
 |  |
