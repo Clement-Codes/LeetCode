@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2665-minimum-time-to-repair-cars](https://github.com/Clement-Codes/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/Clement-Codes/LeetCode/tree/master/2690-house-robber-iv) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Clement-Codes/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/Clement-Codes/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Clement-Codes/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3430-count-days-without-meetings](https://github.com/Clement-Codes/LeetCode/tree/master/3430-count-days-without-meetings) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1500-count-largest-group](https://github.com/Clement-Codes/LeetCode/tree/master/1500-count-largest-group) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Clement-Codes/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/Clement-Codes/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3548-find-the-count-of-good-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Clement-Codes/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Clement-Codes/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Clement-Codes/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Clement-Codes/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Clement-Codes/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3483-alternating-groups-ii) |
 ## Binary Search
