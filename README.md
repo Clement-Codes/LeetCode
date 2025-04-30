@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2665-minimum-time-to-repair-cars](https://github.com/Clement-Codes/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/Clement-Codes/LeetCode/tree/master/2690-house-robber-iv) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Clement-Codes/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Clement-Codes/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Clement-Codes/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Clement-Codes/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Clement-Codes/LeetCode/tree/master/2690-house-robber-iv) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 ## Counting
 |  |
@@ -167,12 +169,14 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Clement-Codes/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3430-count-days-without-meetings](https://github.com/Clement-Codes/LeetCode/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Clement-Codes/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Two Pointers
 |  |
 | ------- |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Clement-Codes/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Breadth-First Search
 |  |
 | ------- |
