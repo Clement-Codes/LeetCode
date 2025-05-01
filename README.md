@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Clement-Codes/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/Clement-Codes/LeetCode/tree/master/1656-count-good-triplets) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2249-count-the-hidden-sequences](https://github.com/Clement-Codes/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/Clement-Codes/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Clement-Codes/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Clement-Codes/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Clement-Codes/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Clement-Codes/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Clement-Codes/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Clement-Codes/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Union Find
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/Clement-Codes/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Clement-Codes/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -190,6 +194,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/Clement-Codes/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
 ## Enumeration
 |  |
@@ -229,5 +234,6 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Monotonic Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Clement-Codes/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
