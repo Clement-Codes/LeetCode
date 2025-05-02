@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0797-rabbits-in-forest](https://github.com/Clement-Codes/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Clement-Codes/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/Clement-Codes/LeetCode/tree/master/1500-count-largest-group) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Clement-Codes/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2050-count-good-numbers](https://github.com/Clement-Codes/LeetCode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0797-rabbits-in-forest](https://github.com/Clement-Codes/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Clement-Codes/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Clement-Codes/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/Clement-Codes/LeetCode/tree/master/1656-count-good-triplets) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Clement-Codes/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Prefix Sum
 |  |
 | ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2249-count-the-hidden-sequences](https://github.com/Clement-Codes/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Clement-Codes/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2915-count-of-interesting-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
@@ -161,6 +164,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0368-largest-divisible-subset](https://github.com/Clement-Codes/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Clement-Codes/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0868-push-dominoes](https://github.com/Clement-Codes/LeetCode/tree/master/0868-push-dominoes) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Clement-Codes/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
