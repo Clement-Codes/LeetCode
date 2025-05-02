@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Clement-Codes/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2478-longest-nice-subarray](https://github.com/Clement-Codes/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Clement-Codes/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Clement-Codes/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Clement-Codes/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Clement-Codes/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Topological Sort
 |  |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Breadth-First Search
 |  |
 | ------- |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Clement-Codes/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Heap (Priority Queue)
 |  |
@@ -239,4 +242,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Clement-Codes/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+## Tree
+|  |
+| ------- |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 <!---LeetCode Topics End-->
