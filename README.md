@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2915-count-of-interesting-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
 | [3227-find-missing-and-repeated-values](https://github.com/Clement-Codes/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3548-find-the-count-of-good-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Clement-Codes/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Clement-Codes/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Matrix
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Clement-Codes/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Clement-Codes/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Clement-Codes/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3483-alternating-groups-ii) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Binary Search
 |  |
 | ------- |
