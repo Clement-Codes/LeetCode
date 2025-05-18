@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0416-partition-equal-subset-sum](https://github.com/Clement-Codes/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0868-push-dominoes](https://github.com/Clement-Codes/LeetCode/tree/master/0868-push-dominoes) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/Clement-Codes/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Clement-Codes/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Clement-Codes/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
