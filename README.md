@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Clement-Codes/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/Clement-Codes/LeetCode/tree/master/1500-count-largest-group) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Clement-Codes/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Clement-Codes/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Clement-Codes/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Clement-Codes/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Clement-Codes/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Prefix Sum
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Graph
 |  |
 | ------- |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Clement-Codes/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -193,6 +196,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Topological Sort
 |  |
 | ------- |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Dynamic Programming
@@ -202,6 +206,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0416-partition-equal-subset-sum](https://github.com/Clement-Codes/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0868-push-dominoes](https://github.com/Clement-Codes/LeetCode/tree/master/0868-push-dominoes) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Clement-Codes/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Clement-Codes/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Clement-Codes/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Clement-Codes/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
@@ -315,4 +320,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/Clement-Codes/LeetCode/tree/master/2048-build-array-from-permutation) |
+## Memoization
+|  |
+| ------- |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 <!---LeetCode Topics End-->
