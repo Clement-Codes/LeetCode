@@ -1,16 +1,17 @@
 class Solution:
     def maxDiff(self, num: int) -> int:
-        def change(x, y):
-            return str(num).replace(str(x), str(y))
-
-        min_num = max_num = num
-        for x in range(10):
-            for y in range(10):
-                res = change(x, y)
-                # Check if there are leading zeros
-                if res[0] != "0":
-                    res_i = int(res)
-                    min_num = min(min_num, res_i)
-                    max_num = max(max_num, res_i)
-
-        return max_num - min_num
+        maxi = num
+        mini = num
+        s = str(num)
+        for i in s:
+            if i != '9':
+                maxi = s.replace(i,'9')
+                break
+        for i, j in enumerate(s):
+            if i == 0 and j != '1':
+                mini = s.replace(j,'1')
+                break
+            elif i > 0 and s[0] != s[i] and j != '0' and int(s.replace(j, '0')) !=0:
+                mini = s.replace(j, '0')
+                break
+        return int(maxi) - int(mini)
