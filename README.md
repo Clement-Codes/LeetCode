@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [3194-find-words-containing-character](https://github.com/Clement-Codes/LeetCode/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Clement-Codes/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3617-find-the-original-typed-string-i](https://github.com/Clement-Codes/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Clement-Codes/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Clement-Codes/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Sliding Window
