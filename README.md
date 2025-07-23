@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0868-push-dominoes](https://github.com/Clement-Codes/LeetCode/tree/master/0868-push-dominoes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Clement-Codes/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Clement-Codes/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Clement-Codes/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Clement-Codes/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Clement-Codes/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0797-rabbits-in-forest](https://github.com/Clement-Codes/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Clement-Codes/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Clement-Codes/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Clement-Codes/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Clement-Codes/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2681-put-marbles-in-bags](https://github.com/Clement-Codes/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Clement-Codes/LeetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -353,4 +355,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Clement-Codes/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+## Stack
+|  |
+| ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Clement-Codes/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
